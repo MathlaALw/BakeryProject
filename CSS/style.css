@@ -36,6 +36,8 @@
     color: white;
     text-align: center;
     margin: 200px auto;
+    position: relative;
+    z-index: 2;
 
 }
 
@@ -47,15 +49,15 @@
     padding: 5px;
     margin: 100px auto;
     width: 40px;
-    height: 85px;
+    height: 60px;
     position: absolute;
     z-index: 99;
-    right: 0;
+    right: 0; */
 
 
 }
 
-.panel img {
+.panel li {
 
     padding: 6px;
     right: 0;
@@ -64,11 +66,16 @@
     height: 35px;
 
 
-}
+} */
 
-.panel img:hover {
+/* .panel img:hover {
     background-color: rgb(147, 125, 2);
     border-radius: 10%;
 
 
+} */
+
+.logo {
+    width: 150px;
+    height: auto;
 }
