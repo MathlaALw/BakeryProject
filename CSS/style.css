@@ -40,6 +40,7 @@
     z-index: 2;
 
 }
+
 .btn-color {
     background-color: rgb(242, 0, 0);
     border: none;
@@ -85,3 +86,26 @@
     width: 120px;
     height: auto;
 }
+
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.feature-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #9a7b4f;
+    
+}
+
+
