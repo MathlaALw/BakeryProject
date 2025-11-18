@@ -41,12 +41,7 @@
 
 }
 
-.btn-color {
-    background-color: rgb(242, 0, 0);
-    border: none;
-    color: white;
 
-}
 
 
 /* .panel {
@@ -82,29 +77,30 @@
 
 } */
 
+/* Logo styling */
 .logo {
-    width: 120px;
-    height: auto;
+    width: 120px; /* logo width */
+    height: auto; /* fit height automatically */
 }
 
-
+/* Feature section styling - List */
 .feature-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 25px;
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 25px; /* Space between feature items */
 }
-
+/* Feature icon styling - list icon*/
 .feature-icon {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
-    font-size: 22px;
-    color: #9a7b4f;
+    width: 55px; /* Set width for the icon container */
+    height: 55px; /* Set height for the icon container */
+    border-radius: 50%; /* Make it circular */
+    border: 2px solid #ddd; /* Light border */
+    display: flex; /* Use flexbox to center icon */
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    margin-right: 15px; /* Space between icon and text */
+    font-size: 22px; /* Icon size */
+    color: #9a7b4f; /* Icon color */
     
 }
 
