@@ -82,6 +82,9 @@
     width: 120px; /* logo width */
     height: auto; /* fit height automatically */
 }
+.features-list {
+    margin-top: 10px;
+}
 
 /* Feature section styling - List */
 .feature-item {
