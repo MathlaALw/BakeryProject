@@ -108,3 +108,25 @@
 }
 
 
+
+/* Feature section styling - List */
+.feature-item-contact {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 25px; /* Space between feature items */
+}
+/* Feature icon styling - list icon*/
+.feature-icon-contact {
+    width: 55px; /* Set width for the icon container */
+    height: 55px; /* Set height for the icon container */
+    border-radius: 50%; /* Make it circular */
+    /* //border: 2px solid #9a7b4f; Light border */
+    display: flex; /* Use flexbox to center icon */
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    margin-right: 15px; /* Space between icon and text */
+    font-size: 22px; /* Icon size */
+    background-color: #9a7b4f;
+    color: #ffffff; /* Icon color */
+    
+}
