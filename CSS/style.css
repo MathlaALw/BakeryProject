@@ -179,11 +179,33 @@
     background: #403d38; 
     color: #969696;
     font-size: 26px;
-    text-decoration: none;
+   
     
 }
 
 .social-icons a:hover {
     background: #9a7b4f; 
     color: #ffffff;
+}
+
+.side-panel {
+    position: fixed;
+    right: 0;                 /* Stick to the right side */
+    top: 30%;                 /* Middle of the page */
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 12px 0 0 12px;   /* Rounded left side */
+    z-index: 9999;            /* In front of everything */
+}
+
+.side-panel a {
+    display: block;
+    margin: 15px 0;
+    size: 40px;
+    color: #555;
+    transition: 0.3s;
+}
+
+.side-panel a:hover {
+    color: #000;
 }
