@@ -191,9 +191,9 @@
 .side-panel {
     position: fixed;
     right: 0;                 /* Stick to the right side */
-    top: 30%;                 /* Middle of the page */
+    top: 40%;                 /* Middle of the page */
     background: #fff;
-    padding: 8px 10px;
+    padding: 15px 10px;
     border-radius: 12px 0 0 12px;   /* Rounded left side */
     z-index: 9999;            /* In front of everything */
 }
@@ -201,11 +201,23 @@
 .side-panel a {
     display: block;
     margin: 15px 0;
-    size: 40px;
+    font-size: 25px;
+    
     color: #555;
     transition: 0.3s;
 }
 
 .side-panel a:hover {
     color: #000;
+}
+
+
+.map-wrapper iframe {
+    width: 100%;  /* full width of container */
+    height: 450px;  /*fixed height */
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
 }
